@@ -1,0 +1,174 @@
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.container-fluid{
+    background-image: url(https://www.rockyfeet.com/wp-content/uploads/2016/05/IMG-20160205-WA0021.jpg);
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.him{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    transition: color 0.3s ease,text-shadow 0.3s ease;
+}
+.him:hover{
+    color: rgb(30, 146, 196);
+    text-shadow: 2px 2px 5px rgba(110, 73, 73, 0.3);
+
+}
+.img_1{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.5s;
+}
+.img_1:hover{
+    transform: translate(50px,30px);
+}
+.img_2{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.5s;
+
+
+}
+.img_2:hover{
+    transform: scale(1.5);
+}
+.img_3{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.5s;
+
+
+}
+.img_3:hover{
+    transform: rotate(45deg);
+}
+.img_4{
+    width: 250px;
+    height: 200px;
+    
+    transition: transform 0.5s;
+
+
+}
+.img_4:hover{
+    transform: skew(20deg, 10deg);
+}
+.img_5{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.5s ease;
+    
+
+
+}
+.img_5:hover{
+    transform: scale(1.5) translate(20px) skew(10deg) rotate(15deg);
+
+}
+.img_6{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.5s ease;
+    
+
+
+}
+.img_6:hover{
+    transform: scale(1.5) translate(20px) skew(-5deg) rotate(-10deg);
+
+}
+.img_7{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+.img_7:hover{
+    transform: scale(1.1);
+}
+.img_8{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+.img_8:hover{
+    transform: translateX(20px)
+}
+.img_9{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+.img_9:hover{
+    transform: skewX(10deg);
+}
+.img_10{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+.img_10:hover{
+    transform: rotateY(25deg);
+}
+.img_11{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.5s ease-in-out;
+    transform-style: preserve-3d;
+}
+.img_11:hover{
+    transform: scale(1.5) translateX(20px) skewX(10deg) rotateY(10deg);rotateX(15deg) ;
+
+}
+.img_12{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.5s ease-in-out;
+    transform-style: preserve-3d;
+}
+.img_12:hover{
+    transform: scale(1.5) translateX(20px) skewX(-10deg) rotateY(10deg);rotateX(-15deg) ;
+
+}
+.hov{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    color: black;
+    
+    transition: transform 0.5s ease;
+}
+.hov:hover{
+    color:skyblue;
+    transform: skew(20deg);
+    
+    
+}
+.foot{
+    background-image: url(https://hblimg.mmtcdn.com/content/hubble/img/destimg/mmt/destination/m_gulmarg_main_tv_destination_img_1_l_911_1364.jpg);
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    gap: 4px;}
+
+
+
