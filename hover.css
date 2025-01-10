@@ -50,7 +50,7 @@
 
 }
 .img_3:hover{
-    transform: rotate(45deg);
+    transform: rotate(180deg);
 }
 .img_4{
     width: 250px;
@@ -72,7 +72,7 @@
 
 }
 .img_5:hover{
-    transform: scale(1.5) translate(20px) skew(10deg) rotate(15deg);
+    transform: scale(1.5) translate(10px) skew(5deg) rotate(180deg);
 
 }
 .img_6{
@@ -84,7 +84,7 @@
 
 }
 .img_6:hover{
-    transform: scale(1.5) translate(20px) skew(-5deg) rotate(-10deg);
+    transform: scale(1.5) translate(5px) skew(-5deg) rotate(-180deg);
 
 }
 .img_7{
@@ -117,7 +117,7 @@
     transition: transform 0.5s ease-in-out;
 }
 .img_10:hover{
-    transform: rotateY(25deg);
+    transform: rotateY(90deg);
 }
 .img_11{
     width: 250px;
@@ -126,7 +126,7 @@
     transform-style: preserve-3d;
 }
 .img_11:hover{
-    transform: scale(1.5) translateX(20px) skewX(10deg) rotateY(10deg);rotateX(15deg) ;
+    transform: scale(1.5) translateX(20px) skewX(10deg) rotateX(90deg);
 
 }
 .img_12{
@@ -136,7 +136,7 @@
     transform-style: preserve-3d;
 }
 .img_12:hover{
-    transform: scale(1.5) translateX(20px) skewX(-10deg) rotateY(10deg);rotateX(-15deg) ;
+    transform: scale(1.5) translateX(20px) skewX(-10deg) rotateY(90deg);rotateX(-15deg) ;
 
 }
 .hov{
